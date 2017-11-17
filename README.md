@@ -1,9 +1,24 @@
 # Austin-Crash-Analytics
-Mapping project to analyze and predict crash patterns in Austin, Texas
 
-This project aims to combine data from Texas Department of Transportation's Crash Records Information System (CRIS) with spatial and machine learning techniques to analyze crash patterns in Austin Texas, and hopefully predict areas and times of high crash probability.
+The project idea is to use publicly available data to investigate crash patterns on a city or county level. This is performed by sourcing data from the TXDoT Crash Records Information System (CRIS) as tables for the years 2010-2017, converting to GIS and pandas dataframes, and analyzing spatial and temporal patterns. 
 
 
+# CRIS:
+
+This database contains all crash data reported by local and state agencies that have occurred. The database includes data such as contributing factors, XY coordinates (WGS84), time of day, day of week, and year of the each crash, daily average traffic flows (for major roads), among others. XY data seems to be of high quality from the analysis that I have done so far, and can be attributed to individual streets and intersections. Unfortunately the records do not have mm/dd/yy values, presenting a challenge for regression analysis.
+
+
+Intersections give us a useful way to aggregate crash incidents on a county or city scale.  Crashes often occur at intersections because these are the locations where two or more roads cross each other and activities such as turning left, crossing over, and turning right have the potential for conflicts resulting in crashes (1). Identifying intersections where a high volume of crashes occur for specific reasons can give civic planners clear problems to investigate and solve.
+
+
+# GIS:
+
+Patterns can be drawn from the CRIS data by converting records to points and aggregating spatially. This is also how the data can be applied to a web map for public consumption. So far I have been doing this by using the ESRI python arcpy site package (requires ArcGIS) and pandas for prep and analysis, with carto for web mapping, but I am open to other solutions.
+
+
+# Machine Learning:
+
+The big idea is to apply machine learning to the crash data, by combing it with 311 data and whatever other public data makes sense to do some predictive analytics. This can be done using python libraries such as scikit-learn or  CRIS crash data includes location, daily traffic volume(for major roads), time, and day which could be used along with intersections to train a neural network to predict chance of accident at any given intersection at a certain day/time
 
 
 # Prototypes:
@@ -22,5 +37,11 @@ https://tom-montgomery.carto.com/builder/74bbff05-75b9-40c2-9ec2-190c64bb4818/em
 
 # Links:
 CRIS:
+Example of machine learning for similar application:
+https://github.com/jgdodson/DerbyHacks17
 
 https://cris.dot.state.tx.us/public/Query/#/app/public/welcome
+
+
+Sources:
+1 https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/811366
