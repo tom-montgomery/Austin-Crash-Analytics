@@ -6,8 +6,10 @@ This project aims to combine data from Texas Department of Transportation's Cras
 
 
 
-Prototypes:
+# Prototypes:
+
 These maps show prototypes of the sort of spatial analysis that is possible for the CRIS data. 
+
 San Antonio Crash Map:
 This map focuses on alcohol and drug related crashes in San Antonio by finding the intersections where the most of these crashes occur. Data was prepped from CRIS 2010-2017 with drugs and alcohol flagged as contributing factors.
 
@@ -18,7 +20,7 @@ This map shows intersections with the highest counts of crashes of any type. Als
 
 https://tom-montgomery.carto.com/builder/74bbff05-75b9-40c2-9ec2-190c64bb4818/embed
 
-Links:
+# Links:
 CRIS:
 
 https://cris.dot.state.tx.us/public/Query/#/app/public/welcome
