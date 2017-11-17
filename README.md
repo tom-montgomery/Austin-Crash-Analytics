@@ -5,20 +5,37 @@ The project idea is to use publicly available data to investigate crash patterns
 
 # CRIS:
 
-This database contains all crash data reported by local and state agencies that have occurred. The database includes data such as contributing factors, XY coordinates (WGS84), time of day, day of week, and year of the each crash, daily average traffic flows (for major roads), among others. XY data seems to be of high quality from the analysis that I have done so far, and can be attributed to individual streets and intersections. Unfortunately the records do not have mm/dd/yy values, presenting a challenge for regression analysis.
+This database contains all crash data reported by local and state agencies that have occurred. The database includes data such as contributing factors, XY coordinates (WGS84), time of day, day of week, and year of the each crash, daily average traffic flows (for major roads), among others. XY data seems to be of high quality from the analysis that I have done so far, and can be attributed to individual streets and intersections. Unfortunately the records do not have mm/dd/yy values, presenting a challenge for a regression analysis.
 
 
 Intersections give us a useful way to aggregate crash incidents on a county or city scale.  Crashes often occur at intersections because these are the locations where two or more roads cross each other and activities such as turning left, crossing over, and turning right have the potential for conflicts resulting in crashes (1). Identifying intersections where a high volume of crashes occur for specific reasons can give civic planners clear problems to investigate and solve.
 
 
+
+
 # GIS:
 
-Patterns can be drawn from the CRIS data by converting records to points and aggregating spatially. This is also how the data can be applied to a web map for public consumption. So far I have been doing this by using the ESRI python arcpy site package (requires ArcGIS) and pandas for prep and analysis, with carto for web mapping, but I am open to other solutions.
+Patterns can be drawn from the CRIS data by converting records to points and aggregating spatially. This is also how the data can be applied to a web map for public consumption. So far I have been doing this by using the ESRI python arcpy site package (requires ArcGIS) and pandas for prep and analysis, with carto for web mapping, but I am open to other solutions. 
 
+GIS can also be used to calculate mode (most common) day, year, and times for intersection crashes. 
+		
+	Mode Crash Year
 
+|Total Crashes|Intersection              |Total Deaths|Mode Crash Year|	Mode Crash time|
+|-------------|--------------------------|------------|---------------|----------------|
+|655	        |BANDERA RD & W LOOP 1604 N|	0       	|2016	          |  17:00 Friday  |
+|585          |BRAUN RD & W LOOP 1604 N	 |3	          |2011           |	3:00 Saturday  |
+|573          |IH 35 N & RITTIMAN RD	   |0           |2015	          |8:00 Monday     |
+|540          |NW LOOP 410 & INGRAM RD	 |0           |	2015          |	17:30 Friday   |
+|518          |N LOOP 1604 E & US HWY 281|	0         |	2012          |	13:00 Saturday |
+ 
+ 
+I have also used python libraries pandas, matplotlib and scipy to plot trends on the county scale using CRIS data (2). This could be done for each intersection, but again the data granularity (mm/dd/yy missing) presents a challenge:
+
+![Travis County Plot](https://github.com/tom-montgomery/Texas-DWI-Insights/blob/master/StatsImg/Travis.jpg "Travis County")
 # Machine Learning:
 
-The big idea is to apply machine learning to the crash data, by combing it with 311 data and whatever other public data makes sense to do some predictive analytics. This can be done using python libraries such as scikit-learn or  CRIS crash data includes location, daily traffic volume(for major roads), time, and day which could be used along with intersections to train a neural network to predict chance of accident at any given intersection at a certain day/time
+The big idea is to apply machine learning to the crash data, by combing it with 311 data and whatever other public data makes sense to do some predictive analytics. This can be done using python libraries such as scikit-learn or tensorflow. CRIS crash data includes location, daily traffic volume(for major roads), time, and day which could be used along with intersections and 311 & crime data to train a neural network to predict chance/probability of an accident occurring at any given intersection on a given time & day.
 
 
 # Prototypes:
