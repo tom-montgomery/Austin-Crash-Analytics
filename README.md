@@ -5,7 +5,7 @@ The project idea is to use publicly available data to investigate crash patterns
 
 # CRIS:
 
-This database contains all crash data reported by local and state agencies that have occurred. The database includes data such as contributing factors, XY coordinates (WGS84), time of day, day of week, and year of the each crash, daily average traffic flows (for major roads), among others. XY data seems to be of high quality from the analysis that I have done so far, and can be attributed to individual streets and intersections. Unfortunately the records do not have mm/dd/yy values, presenting a challenge for a regression analysis.
+This database contains all crash data reported by local and state agencies that have occurred. The database includes data such as contributing factors, XY coordinates (WGS84), time of day, day of week, and year of the each crash, daily average traffic flows (for major roads), among others. XY data seems to be of high quality from the analysis that I have done so far, and can be attributed to individual streets and intersections. 
 
 
 Intersections give us a useful way to aggregate crash incidents on a county or city scale.  Crashes often occur at intersections because these are the locations where two or more roads cross each other and activities such as turning left, crossing over, and turning right have the potential for conflicts resulting in crashes (1). Identifying intersections where a high volume of crashes occur for specific reasons can give civic planners clear problems to investigate and solve.
