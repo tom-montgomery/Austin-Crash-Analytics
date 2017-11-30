@@ -15,8 +15,9 @@ workspace = '{0}\\AustinCA.gdb'.format(directory)
 
 
 def convert_to_points():
-    """Parses query results from CRIS and converts to GIS point format. Exports single feature class for each year of TXDoT
-    data."""
+    """Parses query results from CRIS and converts to GIS point format. Exports single point feature class from CRIS
+    query CSV files. CRIS CSV files should be separated by year and named like 'Travis2017Crashes.csv'.
+    Use clean_fields function to select fields of interest for final output."""
 
     # Creates geodatabase workspace if already does not exist
     if arcpy.Exists(workspace):
@@ -30,8 +31,7 @@ def convert_to_points():
         csv = '{0}\\csv\\Travis{1}Crashes.csv'.format(directory, year)
         table = 'tbl{0}'.format(year)
 
-        # Prep CSV by converting lat long to float and mapping fields. 
-        # Remove fields from final output to omit.
+        # Prep CSV by converting lat long to float and mapping fields.
         arcpy.TableToTable_conversion(in_rows=csv,
                                       out_path=workspace,
                                       out_name=table, where_clause="",
