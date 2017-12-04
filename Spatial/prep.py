@@ -1,6 +1,6 @@
 """Prepares CRIS crash data extracts for use in GIS"""
 import sys
-
+import csv
 
 import arcpy
 
@@ -8,6 +8,19 @@ import arcpy
 spatial_ref = arcpy.SpatialReference(4269)
 # Change data_years if you want to adjust scope of study
 data_years = range(2010, 2018)
+# Use wanted_fields list to select which fields are in final output
+wanted_fields = ['Crash_ID',
+                 'Crash_Date',
+                 'Crash_Time',
+                 'Latitude',
+                 'Longitude',
+                 'Wthr_Cond_ID',
+                 'Death_Cnt',
+                 'Crash_Sev_ID',
+                 'Crash_Speed_Limit',
+                 'Tot_Injry_Cnt',
+                 'OBJECTID',
+                 'Shape']
 
 directory = sys.path[0]
 arcpy.env.overwriteOutput = True
@@ -235,18 +248,6 @@ def convert_to_points():
 def clean_fields():
     """Removes unwanted fields from GIS point data. If all CRIS fields are desired in output do not use this function.
     Use wanted_fields list to select which fields are wanted in final output. ObjectID and Shape must be included."""
-    wanted_fields = ['Crash_ID',
-                     'Crash_Date',
-                     'Crash_Time',
-                     'Latitude',
-                     'Longitude',
-                     'Wthr_Cond_ID',
-                     'Death_Cnt',
-                     'Crash_Sev_ID',
-                     'Crash_Speed_Limit',
-                     'Tot_Injry_Cnt',
-                     'OBJECTID',
-                     'Shape']
 
     fields = arcpy.ListFields("CrashPointsMaster")
     for field in fields:
@@ -257,5 +258,20 @@ def clean_fields():
             arcpy.DeleteField_management("CrashPointsMaster", field.name)
 
 
-convert_to_points()
-clean_fields()
+def merge_export():
+    """Exports cleaned features as csv for plotting and analysis"""
+    arcpy.env.workspace = workspace
+    with open('{0}\\csv\\TravisMaster.csv'.format(directory), "wb") as f:
+        w = csv.writer(f)
+        w.writerow(wanted_fields[:-2])
+        for row in arcpy.da.SearchCursor("CrashPointsMaster", wanted_fields[:-2]):
+            field_indx = [field for field, x in enumerate(wanted_fields[:-2])]
+            field_vals = []
+            for indx in field_indx:
+                field_vals.append(row[indx])
+            w.writerow(field_vals)
+
+# clean_fields()
+# convert_to_points()
+# clean_fields()
+merge_export()
