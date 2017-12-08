@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6cae53d-d3ee-4453-897e-28fcd202ad98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Analysis/analyze.ipynb" />
+    <list default="true" id="f6cae53d-d3ee-4453-897e-28fcd202ad98" name="Default" comment="added analysis">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spatial/csv/ContributingFactors.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spatial/csv/Travis2010Crashes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spatial/csv/Travis2011Crashes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spatial/csv/Travis2012Crashes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spatial/csv/Travis2013Crashes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spatial/csv/Travis2014Crashes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spatial/csv/Travis2015Crashes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spatial/csv/Travis2016Crashes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spatial/csv/Travis2017Crashes.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spatial/csv/TravisMaster.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spatial/csv/schema.ini" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a0000000f.freelist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a0000000f.gdbindexes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a0000000f.gdbtable" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a0000000f.gdbtablx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a0000000f.spx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/csv/Travis2010Crashes.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/csv/Travis2011Crashes.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/csv/Travis2012Crashes.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/csv/Travis2013Crashes.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/csv/Travis2014Crashes.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/csv/Travis2015Crashes.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/csv/Travis2016Crashes.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/csv/Travis2017Crashes.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000001.TablesByName.atx" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000001.TablesByName.atx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000001.freelist" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000001.freelist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000001.gdbtable" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000001.gdbtable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000001.gdbtablx" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000001.gdbtablx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.CatItemsByPhysicalName.atx" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.CatItemsByPhysicalName.atx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.CatItemsByType.atx" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.CatItemsByType.atx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.FDO_UUID.atx" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.FDO_UUID.atx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.freelist" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.freelist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.gdbtable" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.gdbtable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.gdbtablx" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.gdbtablx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.spx" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000004.spx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.CatRelsByDestinationID.atx" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.CatRelsByDestinationID.atx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.CatRelsByOriginID.atx" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.CatRelsByOriginID.atx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.CatRelsByType.atx" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.CatRelsByType.atx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.FDO_UUID.atx" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.FDO_UUID.atx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.freelist" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.freelist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.gdbtable" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.gdbtable" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.gdbtablx" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/a00000006.gdbtablx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/AustinCA.gdb/timestamps" afterPath="$PROJECT_DIR$/Spatial/AustinCA.gdb/timestamps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spatial/prep.py" afterPath="$PROJECT_DIR$/Spatial/prep.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Analysis/analyze.ipynb" afterPath="$PROJECT_DIR$/Analysis/analyze.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +61,10 @@
       <file leaf-file-name="prep.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spatial/prep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="253" column="39" lean-forward="true" selection-start-line="253" selection-start-column="39" selection-end-line="253" selection-end-column="39" />
+            <state relative-caret-position="134">
+              <caret line="199" column="165" lean-forward="false" selection-start-line="199" selection-start-column="165" selection-end-line="199" selection-end-column="165" />
               <folding>
                 <element signature="e#55#65#0" expanded="true" />
-                <element signature="e#1389#29784#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -51,15 +93,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Spatial/prep.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1383" />
-    <option name="width" value="1177" />
-    <option name="height" value="1400" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1380" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -76,7 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,11 +137,17 @@
               <item name="Austin-Crash-Analytics" type="462c0819:PsiDirectoryNode" />
               <item name="Spatial" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Austin-Crash-Analytics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Austin-Crash-Analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="Spatial" type="462c0819:PsiDirectoryNode" />
+              <item name="csv" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,22 +294,29 @@
       <option name="project" value="LOCAL" />
       <updated>1512054810432</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added analysis">
+      <created>1512426065538</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512426065538</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1383" y="0" width="1177" height="1400" extended-state="0" />
+    <frame x="-8" y="-8" width="1380" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3126615" sideWeight="0.48203593" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14809383" sideWeight="0.47244096" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3126615" sideWeight="0.51796407" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14809383" sideWeight="0.52755904" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22385748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32593727" sideWeight="0.49375" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19663352" sideWeight="0.4953125" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22385748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -278,7 +334,8 @@
     <MESSAGE value="initial commit." />
     <MESSAGE value="Added prep for CRIS extract and extract data by year. Prepped data &#10;included in gdb." />
     <MESSAGE value="improved commentary" />
-    <option name="LAST_COMMIT_MESSAGE" value="improved commentary" />
+    <MESSAGE value="added analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="added analysis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -293,7 +350,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#55#65#0" expanded="true" />
-            <element signature="e#1389#29784#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -304,15 +360,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#55#65#0" expanded="true" />
-            <element signature="e#1389#29784#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="7" lean-forward="false" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -322,15 +370,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#55#65#0" expanded="true" />
-            <element signature="e#1389#29784#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="7" lean-forward="false" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -340,7 +380,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#55#65#0" expanded="true" />
-            <element signature="e#1389#29784#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -358,7 +397,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#55#65#0" expanded="true" />
-            <element signature="e#1389#29784#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -376,7 +414,40 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#55#65#0" expanded="true" />
-            <element signature="e#1389#29784#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="7" lean-forward="false" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spatial/prep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#55#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="7" lean-forward="false" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spatial/prep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#55#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -394,7 +465,6 @@
           <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding>
             <element signature="e#55#65#0" expanded="true" />
-            <element signature="e#1389#29784#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -408,18 +478,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="7" lean-forward="false" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+        <state relative-caret-position="935">
+          <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spatial/prep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="253" column="39" lean-forward="true" selection-start-line="253" selection-start-column="39" selection-end-line="253" selection-end-column="39" />
+        <state relative-caret-position="134">
+          <caret line="199" column="165" lean-forward="false" selection-start-line="199" selection-start-column="165" selection-end-line="199" selection-end-column="165" />
           <folding>
             <element signature="e#55#65#0" expanded="true" />
-            <element signature="e#1389#29784#0" expanded="false" />
           </folding>
         </state>
       </provider>
